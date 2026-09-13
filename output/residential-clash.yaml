@@ -11,7 +11,22 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+- name: 🇫🇷 法国 (France) 02 (家宽) - xiaohe
+  server: 172.64.80.1
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
+  tls: true
+  servername: curly-night-6928.ggdhchjk.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: curly-night-6928.ggdhchjk.workers.dev
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
   server: 118.167.209.5
   port: 24215
   udp: true
@@ -22,22 +37,22 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
   client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
   server: 116.204.164.17
   port: 7443
   udp: true
   type: vless
-  uuid: ef8907eb-8bb5-4735-80f2-1d0068500d95
+  uuid: 57c830ca-19a2-441c-811d-db5d81b86b47
   tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /@Marisa_kristi
     headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: 🇷🇴 罗马尼亚 (Romania) 04 (家宽) - xiaohe
+      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
+- name: 🇷🇴 罗马尼亚 (Romania) 05 (家宽) - xiaohe
   server: roma2.moritech.net
   port: 443
   udp: true
@@ -54,17 +69,19 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 04 (家宽) - xiaohe
+  - 🇫🇷 法国 (France) 02 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 05 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 04 (家宽) - xiaohe
+  - 🇫🇷 法国 (France) 02 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 05 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

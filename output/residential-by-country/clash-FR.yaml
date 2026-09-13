@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe
-  server: 104.25.155.45
+- name: 🇫🇷 法国 (France) 01 (家宽) - xiaohe
+  server: 172.64.80.1
   port: 443
   udp: true
   type: vless
-  uuid: 50414e45-4c5f-5a45-5553-4eef5adc237a
+  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
   tls: true
-  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
+  servername: curly-night-6928.ggdhchjk.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/4eef5adc237a/loc-1
+    path: /sync
     headers:
-      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
+      Host: curly-night-6928.ggdhchjk.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe
+  - 🇫🇷 法国 (France) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe
+  - 🇫🇷 法国 (France) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

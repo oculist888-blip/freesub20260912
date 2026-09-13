@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.21.22.180",
+      "tag": "🇫🇷 法国 (France) 01 (家宽) - xiaohe",
+      "server": "172.64.80.1",
       "server_port": 443,
-      "uuid": "33918b20-9e02-4dc6-8b30-79b2d4b2e0e6",
+      "uuid": "4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633",
       "tls": {
         "enabled": true,
-        "server_name": "aUto-scaLe-238B2B.inFra-coRE-1630dD.WorKerS.DeV",
+        "server_name": "curly-night-6928.ggdhchjk.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0",
+        "path": "/sync",
         "headers": {
-          "Host": "aUto-scaLe-238B2B.inFra-coRE-1630dD.WorKerS.DeV"
+          "Host": "curly-night-6928.ggdhchjk.workers.dev"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇫🇷 法国 (France) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇫🇷 法国 (France) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
