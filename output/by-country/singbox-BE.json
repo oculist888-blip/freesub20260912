@@ -5,13 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
-      "server": "38.60.168.98",
-      "server_port": 2087,
-      "uuid": "8a346b7c-5b95-4845-affa-0e5d9929e9ae",
+      "tag": "🇧🇪 比利时 (Belgium) 01 - xiaohe",
+      "server": "172.67.155.136",
+      "server_port": 2086,
+      "uuid": "73796e63-0000-4000-8000-000000000007",
       "transport": {
         "type": "ws",
-        "path": "/db55c40bbc75"
+        "path": "/sync",
+        "headers": {
+          "Host": "vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev"
+        }
       }
     },
     {
@@ -19,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe"
+        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe"
+        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
