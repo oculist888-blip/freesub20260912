@@ -5,18 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "64.225.110.247",
-      "server_port": 2083,
+      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe",
+      "server": "45.202.247.152",
+      "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
         "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/acg/buy/ajax",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -24,20 +23,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 02 - xiaohe",
-      "server": "89.110.66.154",
+      "tag": "🇹🇭 泰国 (Thailand) 02 - xiaohe",
+      "server": "104.18.26.90",
       "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "server_name": "v2ray.simspeedup.com",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/streams/home?ed=2560fp=chrome",
+        "path": "/ws",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "v2ray.simspeedup.com"
         }
       }
     },
@@ -46,16 +45,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 01 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 01 - xiaohe",
+        "🇹🇭 泰国 (Thailand) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
