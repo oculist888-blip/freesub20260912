@@ -5,23 +5,41 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-      "server": "hg.zhujue.us",
-      "server_port": 11000,
-      "uuid": "0e46345c-f33b-4f9b-b8ec-90e7c986af7e",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "37.120.222.70",
+      "server_port": 8082,
+      "uuid": "59c3c1c7-62d0-4707-9d67-5ff9c008591c",
       "tls": {
         "enabled": true,
-        "server_name": "s0.awsstatic.com",
+        "server_name": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4",
-          "short_id": ""
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+      "server": "7dba81fc3a0b.oylfmxz.cn",
+      "server_port": 443,
+      "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "7dba81fc3a0b.oylfmxz.cn",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws"
       }
     },
     {
@@ -29,14 +47,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
