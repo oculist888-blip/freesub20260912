@@ -5,18 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe
-  server: 31.59.121.156
-  port: 2053
+  server: 103.251.167.112
+  port: 8443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /library/lang?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇸🇦 沙特 (Saudi Arabia) 02 - xiaohe
+  server: 95.85.89.70
+  port: 81
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trade?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -25,11 +38,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe
+  - 🇸🇦 沙特 (Saudi Arabia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe
+  - 🇸🇦 沙特 (Saudi Arabia) 02 - xiaohe
 rules:
 - MATCH,PROXIES
