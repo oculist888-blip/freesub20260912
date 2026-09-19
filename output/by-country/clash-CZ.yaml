@@ -5,33 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 64.227.67.161
-  port: 2083
+  server: 188.114.96.8
+  port: 443
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 513beae3-56e7-4954-a17e-930e06237b27
   tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  servername: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /vl/piIRdE9WUi24Sn3bb2oSJ?ed=2560
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 188.130.207.30
-  port: 2053
+  server: 194.87.59.13
+  port: 2085
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /m
-    headers:
-      Host: cdn8848.776676.xyz
+  uuid: 6687af93-eb39-47a3-9a73-0f79234ef507
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 proxy-groups:
 - name: PROXIES
   type: select
