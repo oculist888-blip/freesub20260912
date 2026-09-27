@@ -5,20 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 194.87.59.96
-  port: 2085
+  server: 172.66.166.125
+  port: 443
   udp: true
   type: vless
-  uuid: 6864bd16-f8bb-457c-a191-dca5b80ca32a
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
+  uuid: b825ccd6-f90c-4273-afe1-7f85b436a4a2
+  tls: true
+  servername: eJtl1LB-mlYxNz0kO5Iz618MOTR0msa.FoRNEwIRAn-1011.WORkeRS.dEV
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/6ayyVzPLRWVROzJKD82qZxn?ed=2560
+    headers:
+      Host: ejtl1lb-mlyxnz0ko5iz618motr0msa.fornewiran-1011.workers.dev
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 153.76.185.93
+  server: 153.76.185.151
   port: 3090
   udp: true
   type: vless
-  uuid: d21a3080-7011-47a1-9b1e-297578f28b3f
+  uuid: 51c8ed23-7ca5-43f1-b0a8-0a37a7a16647
   network: grpc
   grpc-opts:
     grpc-service-name: vless

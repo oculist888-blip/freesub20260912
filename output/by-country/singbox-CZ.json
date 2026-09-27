@@ -6,20 +6,35 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "194.87.59.96",
-      "server_port": 2085,
-      "uuid": "6864bd16-f8bb-457c-a191-dca5b80ca32a",
+      "server": "172.66.166.125",
+      "server_port": 443,
+      "uuid": "b825ccd6-f90c-4273-afe1-7f85b436a4a2",
+      "tls": {
+        "enabled": true,
+        "server_name": "eJtl1LB-mlYxNz0kO5Iz618MOTR0msa.FoRNEwIRAn-1011.WORkeRS.dEV",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+        "type": "ws",
+        "path": "/vl/6ayyVzPLRWVROzJKD82qZxn?ed=2560",
+        "headers": {
+          "Host": "ejtl1lb-mlyxnz0ko5iz618motr0msa.fornewiran-1011.workers.dev"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "153.76.185.93",
+      "server": "153.76.185.151",
       "server_port": 3090,
-      "uuid": "d21a3080-7011-47a1-9b1e-297578f28b3f",
+      "uuid": "51c8ed23-7ca5-43f1-b0a8-0a37a7a16647",
       "transport": {
         "type": "grpc",
         "service_name": "vless"
