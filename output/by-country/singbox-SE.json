@@ -27,23 +27,35 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-      "server": "cape.flowzari.info",
+      "server": "sweedenqfds777.qcloud.surf",
+      "server_port": 21223,
+      "password": "8bd04756-3beb-4348-82c9-d35453df50ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
+      "server": "swe.wizard.select",
       "server_port": 443,
-      "uuid": "6c21cf57-a9a9-4075-ad9f-631152bd911e",
+      "uuid": "3db6eb7e-c548-11f1-9902-a337233c6cda",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cape.flowzari.info",
+        "server_name": "swe.wizard.select",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5DdSLIpnYjqYTI4-yC-ulr8PGMA8YML_EWdKvOjdinc",
-          "short_id": "693e339ad3613446"
+          "public_key": "Sikc1gu5t_uwitf1xTTChP9tpT_sjY530p2tioHbmz0",
+          "short_id": "3b20e438da99"
         }
       }
     },
@@ -53,7 +65,8 @@
       "outbounds": [
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 02 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 03 - xiaohe"
       ]
     },
     {
@@ -61,7 +74,8 @@
       "tag": "auto",
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 02 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
