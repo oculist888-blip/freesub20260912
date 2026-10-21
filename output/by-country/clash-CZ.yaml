@@ -5,20 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 172.67.130.187
-  port: 2083
+  server: server.slavkiti.monster
+  port: 443
   udp: true
   type: vless
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
+  flow: xtls-rprx-vision
   tls: true
-  servername: fans.liverpool.qzz.io
-  skip-cert-verify: false
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: ee1716767f9b
+  servername: www.tradingview.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: fans.liverpool.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select
