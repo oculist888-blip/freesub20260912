@@ -14,7 +14,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -28,8 +28,16 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "server": "location8.cpanel-host10.ir",
+      "server_port": 56134,
+      "method": "chacha20-ietf-poly1305",
+      "password": "uvKNudV-N8AUCrykPiyznA"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
       "server": "151.241.226.201",
       "server_port": 2053,
       "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
@@ -38,7 +46,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -46,14 +54,6 @@
           "short_id": "9e419c0759b54d6f"
         }
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "server": "location8.cpanel-host10.ir",
-      "server_port": 56134,
-      "method": "chacha20-ietf-poly1305",
-      "password": "uvKNudV-N8AUCrykPiyznA"
     },
     {
       "type": "selector",
