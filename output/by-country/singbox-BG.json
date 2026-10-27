@@ -6,20 +6,21 @@
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "p11real3.greewebservices.ir",
-      "server_port": 2202,
-      "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
+      "server": "nl1.cleanset.net",
+      "server_port": 45821,
+      "uuid": "f73538f3-737d-41d8-b1e7-8a6bd8d2e7c0",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "play.googleapis.com",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
-          "short_id": "e3085d4fc679ba12"
+          "public_key": "RymFn9pFlHaMQpps5joHsmg0fOeWcaQiMOLR5IIfuWY",
+          "short_id": ""
         }
       }
     },

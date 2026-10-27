@@ -5,17 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: p11real3.greewebservices.ir
-  port: 2202
+  server: nl1.cleanset.net
+  port: 45821
   udp: true
   type: vless
-  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
+  uuid: f73538f3-737d-41d8-b1e7-8a6bd8d2e7c0
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-    short-id: e3085d4fc679ba12
-  servername: play.googleapis.com
-  client-fingerprint: ios
+    public-key: RymFn9pFlHaMQpps5joHsmg0fOeWcaQiMOLR5IIfuWY
+  servername: www.samsung.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
