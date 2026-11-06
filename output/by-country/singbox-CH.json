@@ -16,35 +16,26 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
-      "server": "45.90.59.15",
+      "server": "208.69.78.33",
       "server_port": 443,
-      "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
-      "flow": "xtls-rprx-vision",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
-          "short_id": "19253fae84102271"
-        }
+        "server_name": "courses.yourultimateprofessionalcareerhub.com",
+        "insecure": true
       }
     },
     {
       "type": "trojan",
       "tag": "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
-      "server": "208.69.78.60",
+      "server": "208.69.78.19",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
+        "server_name": "www.yourultimateprofessionalcareerhub.com",
         "insecure": false
       }
     },
@@ -63,6 +54,52 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
+      "server": "129.151.64.169",
+      "server_port": 31867,
+      "uuid": "f7ff2e67-b687-4098-a28a-d102c27ba19c",
+      "tls": {
+        "enabled": true,
+        "server_name": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+      "server": "5.75.195.83",
+      "server_port": 56879,
+      "uuid": "f8847ac2-e586-400f-841b-00081ea4592e",
+      "tls": {
+        "enabled": true,
+        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
       "server": "208.69.78.217",
       "server_port": 2053,
       "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
@@ -71,7 +108,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -89,7 +126,9 @@
         "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 05 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 07 - xiaohe"
       ]
     },
     {
@@ -100,7 +139,9 @@
         "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 05 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
