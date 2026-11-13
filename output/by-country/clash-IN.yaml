@@ -15,7 +15,7 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 02 - xiaohe
   server: 13.140.56.100
   port: 14430
@@ -25,8 +25,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-    headers:
-      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 03 - xiaohe
   server: 178.212.35.198
   port: 443
@@ -44,16 +42,16 @@ proxies:
   port: 443
   udp: true
   type: vless
-  uuid: f1a7e2c8-b140-50d1-8acf-e62090f96599
+  uuid: f1d3c8af-71c4-ef75-625f-cf446aa2c15b
   tls: true
-  servername: xray-bprkdwje-clever-comet-4.cloady.io
+  servername: xray-h0urp9tx-rapid-summit-2.cloady.io
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /27dbf143acdd7bca
+    path: /050334203cc522a3
     headers:
-      Host: xray-bprkdwje-clever-comet-4.cloady.io
+      Host: xray-h0urp9tx-rapid-summit-2.cloady.io
 proxy-groups:
 - name: PROXIES
   type: select
