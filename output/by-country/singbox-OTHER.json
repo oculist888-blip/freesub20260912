@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.70.21",
+      "server": "104.16.10.234",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -15,7 +15,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
@@ -29,30 +29,7 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.21.70.21",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "104.21.70.21",
+      "server": "104.16.10.234",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -69,37 +46,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
-      "server": "104.21.70.21",
-      "server_port": 443,
-      "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
-      "tls": {
-        "enabled": true,
-        "server_name": "nautica-cff.kloningstrife002.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/138.2.74.219-28616",
-        "headers": {
-          "Host": "nautica-cff.kloningstrife002.workers.dev"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe",
-        "🌐 其他地区 (Other) 04 - xiaohe"
+        "🌐 其他地区 (Other) 02 - xiaohe"
       ]
     },
     {
@@ -107,9 +59,7 @@
       "tag": "auto",
       "outbounds": [
         "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe",
-        "🌐 其他地区 (Other) 04 - xiaohe"
+        "🌐 其他地区 (Other) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
